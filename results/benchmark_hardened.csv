@@ -1,0 +1,13 @@
+instance,courses,rooms,strategy,status,valid,mean_ms,std_ms,median_ms,search_mean_ms,opt_mean_ms,nodes,attempts,backtracks,ac3_pruned,pruned_values,opt_steps,soft_score,spread_pct,balance_pct
+hard_deep_unsat,16,4,naive,LIMIT_EXCEEDED,LIMIT_EXCEEDED,97.107,2.661,95.734,97.103,0.0,10000,28713,10000,0,0,0,,,
+hard_deep_unsat,16,4,midterm_heuristic,UNSAT,UNSAT,1.957,0.104,1.926,1.957,0.0,1,2,2,0,54,0,,,
+hard_deep_unsat,16,4,heuristic,UNSAT,UNSAT,0.608,0.018,0.604,0.607,0.0,1,0,0,2,2,0,,,
+hard_deep_unsat,16,4,optimized,UNSAT,UNSAT,0.616,0.056,0.609,0.615,0.0,1,0,0,2,2,0,,,
+hard_tight_sat,20,4,naive,LIMIT_EXCEEDED,LIMIT_EXCEEDED,266.39,39.213,253.338,266.383,0.0,10000,58245,10000,0,0,0,,,
+hard_tight_sat,20,4,midterm_heuristic,SAT,True,15.528,0.869,15.53,15.307,0.0,21,20,0,0,274,0,67.5,60.0,75.0
+hard_tight_sat,20,4,heuristic,SAT,True,2.267,0.341,2.119,2.095,0.0,21,20,0,0,274,0,67.5,60.0,75.0
+hard_tight_sat,20,4,optimized,SAT,True,10.946,9.949,8.811,3.844,6.768,21,20,0,0,274,6,87.5,80.0,95.0
+stress_28_courses,28,6,naive,SAT,True,2.027,0.163,2.0,1.814,0.0,29,208,0,0,0,0,69.83,64.67,75.0
+stress_28_courses,28,6,midterm_heuristic,SAT,True,99.297,4.593,98.342,98.92,0.0,29,28,0,0,842,0,72.17,69.33,75.0
+stress_28_courses,28,6,heuristic,SAT,True,9.322,0.982,9.226,9.061,0.0,29,28,0,0,853,0,70.5,66.0,75.0
+stress_28_courses,28,6,optimized,SAT,True,53.647,3.977,53.12,9.461,43.604,29,28,0,0,853,8,91.43,90.0,92.86
