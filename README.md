@@ -63,9 +63,8 @@ code/
 │   └── app.py              # Interactive Streamlit timetable dashboard
 ├── scripts/
 │   └── run_experiment.py   # Reproducible benchmark & figure generation script (--seed 42)
-├── tests/
-│   ├── test_project_07_sanity.py
-│   └── test_project_07_solver.py
-└── results/
-    └── (generated CSV, JSON, and PNG artifacts)
+└── tests/
+    ├── test_project_07_sanity.py
+    └── test_project_07_solver.py
+
 ```
